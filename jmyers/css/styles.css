@@ -1,0 +1,111 @@
+.z-pattern { 
+	background-image: url(../images/cope.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*	*******************************************
+	Fixed positioning of the header/footer
+	******************************************* */
+.persistent {
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+header.persistent { top: 0; }
+footer.persistent { bottom: 0; }
+
+/*	*******************************************
+	Styling of the four Z-pattern quadrants
+	******************************************* */
+.primary, .strong, .weak, .terminal {
+	margin: 30px; /* ...style to taste */
+}
+.primary, .weak { margin-left: 20; }
+.strong, .terminal { margin-right: 20; }
+
+/*	*******************************************
+	Flex positioning of the four quadrants
+	******************************************* */
+header .container, footer .container { 
+	display: flex;
+	justify-content: space-between;
+}
+
+.primary, .strong, .weak, .terminal { 
+	align-self: center;
+}
+.strong, .terminal { text-align: right; }
+.terminal { font-size: xx-large; }
+
+/*	*******************************************
+	Positioning of the centered message
+	******************************************* */
+.z-pattern main { 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.big-message {background: rgba(0,0,0,0.75);
+	width: 50%;}
+
+h1 {color: white;}
+
+p.index {color:white;}
+
+button:hover {color:blue;}
+button {background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    font-family: 'Gentium Basic', serif;
+	font-size:15px;
+	border-radius: 4px;}
+
+.weak {color:white;}
+
+header.persistent {padding-bottom:60px;
+	background: rgba(0,0,0,0.75);
+	height:10%;}
+
+footer.persistent {padding-bottom:20px;
+	background: rgba(0,0,0,0.75);
+	height:10%;}
+
+label {color:white;}
+
+header.sub {background: rgba(0,0,0,0.75);
+	height:10%;
+	display: grid;
+    grid-template-columns: 1fr 6fr;}
+
+.tivoli {display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;}
+
+.mermaid {display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;}
+
+.rosenborg {display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;}
+
+.contain {margin:0 auto;
+    width: 85%;
+    max-width: 1500px;}
+
+body.subpage {background-color: #CCCFCF;
+    color: #333333;
+    font-family: 'Eczar', serif;;
+    font-size: 20px;
+	margin: 0 auto;
+    width: 95%;
+    max-width: 1300px;}
+
+body.z-pattern {font-family: 'Eczar', serif;}
+
+ul {border:1px solid black;}
+
+img {padding-top: 10px;}
+
+footer.sub{text-align: left}
