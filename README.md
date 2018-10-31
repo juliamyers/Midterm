@@ -57,3 +57,12 @@ Alignment
 Proximity
   - I put the info about the various tourist attractions closely next to each other so that the user would know which picture/desccription/review went with which attraction.
 
+CSS Architecture:
+
+I split the CSS into 3 sections:
+
+1. State: I took inspiration from SMACSS for this category - it includes lines of code that change based on the user's actions
+
+2. Styles: this category includes all visual styles of the website (like color, font, font size, font decoration, etc)
+
+3. Format: This includes all line of code that formats the website (like padding, margins, width, borders, etc)
