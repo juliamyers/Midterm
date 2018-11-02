@@ -6,11 +6,10 @@ Ontology
   - the most important parts of this site is the bike icon because it serves as the link back to the home page as well as the center text on the home page since it tells you what the site is about. Also, the email sign up form is important so that people can get more information about the site and travelling to Copenhagen.  The headers and info in the second page are also very important because it shows the user the great things they can see in Copenhagen and persuades them to visit.
   
 Taxonomy
-  - Headers are larger and a different font from the rest of the text to show their imporance, grab the attention of the user, and show what the page/section is about.
-  - "Tourist Reviews" title was added to the unordered lists on the second page so that the user knows what the list contains 
-  - the headers in the black backgrounda are all white so they are readable
+  - Headers are larger and a different font from the rest of the text to show their importance, grab the attention of the user, and show what the page/section is about.
+  - "Tourist Reviews" title was added in a larger font to the unordered lists on the second page so that the user knows what the list contains 
+  - the headers in the black background are all white so they are readable
   - i made the descriptions of the tourist attractions about the same length to help with flow and readability of the site contents.
-  
   
 Choreography
   - on the home page, the main topic of the site is put in the middle of the hero image so that the user immediately knows what the site is about
